@@ -1,0 +1,11 @@
+# This is a generated file; do not edit or check into version control.
+firebase_auth=/home/beguin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.20.1/
+firebase_auth_web=/home/beguin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.3.3/
+firebase_core=/home/beguin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.7.0/
+firebase_core_web=/home/beguin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+3/
+firebase_database=/home/beguin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-6.0.0/
+flutter_plugin_android_lifecycle=/home/beguin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11/
+fluttertoast=/home/beguin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-7.1.8/
+geolocator=/home/beguin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-6.2.1/
+geolocator_web=/home/beguin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_web-1.0.1/
+google_maps_flutter=/home/beguin/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-1.2.0/
