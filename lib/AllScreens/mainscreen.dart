@@ -172,14 +172,14 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            "Profile Name",
+                            userCurrentInfo.name,
                             style: TextStyle(
                                 fontSize: 16.0, fontFamily: "Brand-Bold"),
                           ),
                           SizedBox(
                             height: 6.0,
                           ),
-                          Text("Visit Profile"),
+                          Text("Visitar perfil"),
                         ],
                       )
                     ],
@@ -192,23 +192,32 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
 
               //Drowe Body Controllers
               ListTile(
-                leading: Icon(Icons.history),
+                leading: Icon(
+                  Icons.history,
+                  color: Colors.black,
+                ),
                 title: Text(
-                  "History",
+                  "Historico",
                   style: TextStyle(fontSize: 15.0),
                 ),
               ),
               ListTile(
-                leading: Icon(Icons.person),
+                leading: Icon(
+                  Icons.person,
+                  color: Colors.black,
+                ),
                 title: Text(
-                  "Visit Profile",
+                  "Visitar perfil",
                   style: TextStyle(fontSize: 15.0),
                 ),
               ),
               ListTile(
-                leading: Icon(Icons.info),
+                leading: Icon(
+                  Icons.info,
+                  color: Colors.black,
+                ),
                 title: Text(
-                  "About",
+                  "Sobre",
                   style: TextStyle(fontSize: 15.0),
                 ),
               ),
@@ -219,7 +228,10 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
                       MaterialPageRoute(builder: (context) => Loginscreen()));
                 },
                 child: ListTile(
-                  leading: Icon(Icons.info),
+                  leading: Icon(
+                    Icons.logout,
+                    color: Colors.red,
+                  ),
                   title: Text(
                     "Sign Out",
                     style: TextStyle(fontSize: 15.0),
@@ -392,7 +404,7 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
                                 height: 4.0,
                               ),
                               Text(
-                                "Endereço da sua casa",
+                                "Endereço Atual",
                                 style: TextStyle(
                                     color: Colors.black54, fontSize: 12.0),
                               )
