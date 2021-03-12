@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:animated_button/animated_button.dart';
+import 'package:help_me/AllScreens/LoginScreen.dart';
 import 'package:help_me/AllScreens/mainscreen.dart';
 import 'package:help_me/AllScreens/signupscreen.dart';
 
@@ -68,7 +69,7 @@ class MyHomePage extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => MainScreen()));
+                              builder: (context) => Loginscreen()));
                     },
                     child: Text(
                       'Login',

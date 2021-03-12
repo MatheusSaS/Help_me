@@ -172,7 +172,9 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            userCurrentInfo.name,
+                            ((userCurrentInfo == null)
+                                ? ''
+                                : userCurrentInfo.name),
                             style: TextStyle(
                                 fontSize: 16.0, fontFamily: "Brand-Bold"),
                           ),
